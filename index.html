@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillCraft Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f8fb;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #004aad, #00aaff);
+            padding: 15px 0;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            margin: auto;
+        }
+	
+
+	/* Moving text animation */
+	.animate-text {
+    		display: inline-block;
+    		font-weight: bold;
+    		font-size: 5.5rem;
+    		background: linear-gradient(90deg, #fc7e08, #fefefe, #57fc04, #0324f7,#ededee,#f68b07);
+    		background-size: 1300%;
+    		-webkit-background-clip: text;
+    		-webkit-text-fill-color: transparent;
+    		animation: moveText 4s linear infinite;
+	}
+
+/* Background gradient movement */
+	@keyframes moveText {
+    	0% { background-position: 0%; }
+    	100% { background-position: 300%; }
+	}
+
+        nav .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: yellow;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: url('bg-tech.jpg') no-repeat center/cover;
+            color: rgb(79, 206, 237);
+            position: relative;
+        }
+        .hero img {
+            width: 200px;
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            background: #ffcc00;
+            color: #000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+        .btn:hover {
+            transform: scale(1.1);
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 50px 20px;
+        }
+        .feature-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .feature-card img {
+            width: 100%;
+            border-radius: 8px;
+            height: 150px;
+            object-fit: cover;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #002244;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+           
+	    <div class="logo animate-text"><b>SkillCraft Technology </b></div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Crafting Success Through Technology</h1>
+        <p>Innovative IT Services & Consulting for your business growth.</p>
+        <img src="genz.gif" alt="SkillCraft Animation">
+        <a href="about.html" class="btn">Learn More</a>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <img src="it.jpg" alt="IT Services">
+            <h3>IT Services</h3>
+            <p>We deliver cutting-edge IT solutions tailored to your business needs.</p>
+        </div>
+        <div class="feature-card">
+            <img src="itc.jpeg" alt="Consulting">
+            <h3>IT Consulting</h3>
+            <p>Expert advice to streamline your operations and increase ROI.</p>
+        </div>
+        <div class="feature-card">
+            <img src="ino.jpeg" alt="Innovation">
+            <h3>Innovation</h3>
+            <p>Creative solutions and algorithms for efficient problem-solving.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 SkillCraft Technology | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

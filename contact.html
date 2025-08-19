@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - SkillCraft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SkillCraft Technology</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <h1>Contact Us</h1>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <button id="toggleBtn">Show More Info</button>
+        <div id="extraInfo" style="display: none;">
+            <p>Email: contact@skillcraft.com</p>
+            <p>Phone: +91 9876543210</p>
+            <p>Address: Bangalore, India</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 SkillCraft Technology | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        document.getElementById("toggleBtn").addEventListener("click", function(){
+            let info = document.getElementById("extraInfo");
+            info.style.display = (info.style.display === "none") ? "block" : "none";
+        });
+    </script>
+</body>
+</html>
