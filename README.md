@@ -9,3 +9,15 @@ This repository is a collection of mini web projects developed as part of my Ski
 The goal of this repository is to showcase my applied learning, demonstrate project-building capability, and highlight how simple concepts in HTML, CSS, and JavaScript can be transformed into fully functional applications.
 
 Through these projects, I explored UI/UX design, JavaScript interactivity, responsive layouts, and logical structures — all of which are essential skills for a Computer Science Engineer stepping into the professional development world.
+
+📌 Projects Included
+1️⃣ Landing Page: SKILLCRAFT EDUCATION.
+
+A responsive, static landing page designed with a clean and modern layout.
+This project focuses on web design aesthetics, proper HTML structure,JAVA SCRIPT and CSS styling techniques.
+
+Implements a user-friendly and visually appealing interface
+
+Adheres to responsive design principles to support multiple devices
+
+Demonstrates ability to craft layouts with professional appeal
